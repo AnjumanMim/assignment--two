@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>4no</title>
+</head>
+<body>
+    <h>4no</h>
+    <script>
+let name=prompt("Enter your name: ");
+let length=name.length;
+let lowercase =0;
+let uppercase=0;
+for(let i=0;i<length;i++)
+{
+    if(name[i]===name[i].toLowerCase())
+    {
+        lowercase++;
+    }
+    else if(name[i]===name[i].toUpperCase())
+    {
+        uppercase++;
+    }
+
+
+    }
+console.log("Name is:"+name+ "it has "+ length + " characters it has " + lowercase + " lowercase letters and " + uppercase + " uppercase letters.");
+    </script>
+    
+</body>
+</html>
